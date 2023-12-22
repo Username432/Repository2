@@ -1,0 +1,3 @@
+Create (or use existing file) and run React Testing Library (RTL) Book to experiment with RTL:
+npx rtl-book serve roles-notes.js
+http://localhost:4005
