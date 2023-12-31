@@ -1,0 +1,52 @@
+*** React Testing Library and Jest: The Complete Guide (Dec.24,2023) ***********************
+
+1. Open ConEmu window
+2. cd C:\Users\Serge\MyFolders\important\Training\Udemy\React Testing Library and Jest\users
+3. npm install
+4. npm run start
+5. npm run test
+6. http://localhost:3000/
+
+Create (or use existing file) and run React Testing Library (RTL) Book to experiment with RTL:
+npx rtl-book serve roles-notes.js
+npx rtl-book serve query-notes.js
+npx rtl-book serve criteria-notes.js
+npx rtl-book serve matcher-notes.js
+http://localhost:4005
+
+rtl-book - package created by Stephen Grider
+
+npm - package manager
+npx - executes packages and if any package is missing, it will temporarily load it
+
+JavaScript Regular Expressions:
+https://www.w3schools.com/js/js_regexp.asp
+
+npm install - will install package and put it into package.json "dependencies" section
+npm install --save-dev - will install package and put it into package.json "devDependencies" section
+"dependencies": Packages required by your application in production.
+"devDependencies": Packages that are only needed for local development and testing.
+
+To debug component or test file while running "npm run test":
+1. Add to package.json:
+  "scripts": {
+	...
+    "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
+    ...
+  },
+2. Set a breakpoint in code adding the statement: debugger;
+3. npm run test:debug
+4. Open Chrome browser and point to: about:inspect
+5. Wait until "inspect" link is shown at the bottom of Chrome page.
+6. Click "inspect" link.
+7. Click "blue arrow" on top right corner of the page to resume code running.
+
+To debug a component, use Chrome DevTools:
+1. Set a breakpoint in code adding the statement: debugger;
+2. npm run start
+3. Point Chrome to: http://localhost:3000/
+4. Open Chrome DevTools.
+5. Use "Sources" tab to set breakpoints or use the "debugger" statement (the code equivalent of breakpoints) to pause code execution.
+
+The 2023 guide to React debugging:
+https://raygun.com/blog/react-debugging-guide/

@@ -1,0 +1,10 @@
+*** How to integrate a React webapp inside a spring boot Application with jar packaging (Dec.31,2023) ************
+
+OpenConEmu window
+cd C:\Users\Serge\MyFolders\git\gradle-java-react
+gradlew clean build
+java -jar java-app/build/libs/java-app-0.0.1-SNAPSHOT.jar
+http://localhost:8080
+See:
+https://dzone.com/articles/integrating-java-and-npm-builds-using-gradle
+https://github.com/xword/java-npm-gradle-integration-example/tree/master

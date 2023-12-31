@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-java-react'
+
+include 'java-app'
+include 'react-app'
